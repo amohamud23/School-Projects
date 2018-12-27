@@ -18,7 +18,7 @@ import static javax.imageio.ImageIO.read;
 
 /**
  *
- * @author anthony-pc
+ * @author abdi
  */
 public class GameWorld extends JPanel {
 
