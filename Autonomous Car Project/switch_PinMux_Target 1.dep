@@ -1,0 +1,18 @@
+Dependencies for Project 'switch_PinMux', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_rvmdk.S)(0x5C1D7979)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\startup_rvmdk.lst --xref -o .\startup_rvmdk.o --depend .\startup_rvmdk.d)
+F (.\switch_PinMux.c)(0x5C1DBD06)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\..\..\.. --c99-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM-o .\switch_pinmux.o --omf_browse .\switch_pinmux.crf --depend .\switch_pinmux.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FBC3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FBC3E)
+I (switch_PinMux.h)(0x5C16C070)
+I (..\..\..\..\inc/hw_types.h)(0x5BB57910)
+I (..\..\..\..\inc/hw_memmap.h)(0x5BB57910)
+I (..\..\..\..\inc/hw_gpio.h)(0x5BB57910)
+I (..\..\..\..\driverlib/sysctl.h)(0x5BB5790A)
+I (..\..\..\..\driverlib/pin_map.h)(0x5BB5790A)
+I (..\..\..\..\driverlib/gpio.h)(0x5BB57909)
+I (..\..\..\..\driverlib/pwm.h)(0x5BB5790A)
+I (..\..\..\..\driverlib/interrupt.h)(0x5BB5790A)
+I (..\..\..\..\driverlib/timer.h)(0x5BB5790A)
+I (..\..\..\..\inc/tm4c123gh6pm.h)(0x5BB57910)
+F (.\switch_PinMux.h)(0x5C16C070)()
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x5BB5790A)()
